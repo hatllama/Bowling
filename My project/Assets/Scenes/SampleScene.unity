@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 194966798}
   - component: {fileID: 194966797}
   - component: {fileID: 194966796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IndicatorModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 627002212}
   - component: {fileID: 627002211}
   - component: {fileID: 627002210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1265,7 +1265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 908258843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LaunchIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,7 +1297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1062163985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BallAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1444,7 +1444,7 @@ GameObject:
   - component: {fileID: 1617005548}
   - component: {fileID: 1617005551}
   - component: {fileID: 1617005550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PlayerModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638335071}
   - component: {fileID: 1638335070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1656,7 +1656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1769493744}
   - component: {fileID: 1769493743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 1777690522}
   - component: {fileID: 1777690521}
   - component: {fileID: 1777690526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BowlingBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1732,7 +1732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fe346d8b9afb24a892a92f9c462a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 5
+  force: 10
   ballAnchor: {fileID: 1062163985}
   launchIndicator: {fileID: 908258843}
   inputManager: {fileID: 1665741945}
@@ -2038,7 +2038,7 @@ GameObject:
   - component: {fileID: 2076876368}
   m_Layer: 0
   m_Name: Lane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
