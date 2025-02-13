@@ -7,7 +7,8 @@ public class BallController: MonoBehaviour
 
     private bool isBallLaunched;
     private Rigidbody ballRB;
-    private InputManager inputManager;
+    [SerializeField] private InputManager inputManager;
+
     
      void Start()
      {
@@ -15,7 +16,7 @@ public class BallController: MonoBehaviour
         inputManager.OnSpacePressed.AddListener(LaunchBall);
      }
 
-     private void LaunchBall()
+    private void LaunchBall()
     {
         if (isBallLaunched) return;
 
