@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
         }
 
         inputManager.OnResetPressed.AddListener(HandleReset);
+
         SetPins();
     }
 
